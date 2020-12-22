@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+}
+.carousel-inner{
+    width: 100%;
+    height: 100%;
+}
+
+.contactForm{
+    align-items: center;
+    width: 90%;
+    height:100px;
+    margin:20px 30px;
+    border:10px;
+}
+
+.creativ__section{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 50px;
+    color:$color-indigo;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: $color-yellow;
+}
+
+.h__divider{
+    margin-top:10px;
+    margin-bottom:10px;
+    width: 100%;
+    border-top: 1px solid $color-yellow;
+}
+
+.h__thick{
+    position: relative;
+    display:block;
+    margin: 80px auto;
+    width: 6%;
+    border-top: 3px solid $color-yellow;
+}
+
+.llave__imag{
+    position: relative;
+    margin: 80px 0px 80px 0px;
+
+    .llave__imag--small{
+        $mobile: "only screen and (max-width: #{$screen_small - 1})";
+        float: left;
+        position: relative;
+        width: auto;
+    }
+}
+
+li {
+    font-size: 1.2rem;
+    color: $color-indigo;
+    list-style: none;
+    
+    a:hover{
+        color: $color-grape;
+        text-decoration: none;
+    }
+}
+
+.text__styles{
+    text-align: center;
+
+    p{
+        color: $color-indigo;
+        font-family: $main-font;
+        font-size: $font-size-middle;
+        margin: 20px 200px 20px 200px;
+        font-style: italic;
+    }
+    h1{
+        color: $color-indigo;
+        font-family: $main-font;
+        font-size: $font-size-middle;
+        margin: 50px auto 50px 200px;
+    }
+    h2{
+        color: $color-blue-nigth;
+        font-family: $secondary-font;
+        font-size: $font-size-para;
+        margin:10px 0px 20px 0px;
+    }
+    h3{
+        color: $color-indigo;
+        font-family: $main-font;
+        font-size: $font-size-base;
+        margin: 10px 10px;
+    }
+    h4{
+        color: $color-indigo;
+        font-family: $main-font;
+        font-size: $font-size-base;
+    }
+
+    &.text__styles--title {
+        background-color: $color-peach;
+        color: $color-indigo;
+        padding-top: 1px;
+    }
+
+    &.text__styles--titlenon {
+        color: $color-indigo;
+        padding-top: 5px;
+    }
+}
+
+.style__boxes{
+    background-image: url(../imagenes/imaginicio2.png);
+    width: 450px;
+    height: 400px;
+    margin: 50px 30px;
+    margin-left: auto;
+
+    &:hover{
+    color: $color-grape;
+    transform: scale(1.1)
+}}

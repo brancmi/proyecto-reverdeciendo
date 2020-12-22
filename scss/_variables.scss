@@ -1,0 +1,32 @@
+//Colors//
+$color-grape: #a40775;
+$color-ligth-blue: #415a7c;
+$color-indigo: #233c5f; 
+$color-blue-nigth: #0D1D33;
+$color-peach: #f1e3b0;
+$color-yellow: #ddc458;
+
+//Fonts// 
+$main-font: 'Open Sans Condensed', sans-serif;
+$secondary-font: 'Open Sans', sans-serif;
+
+//Font-size//
+$font-size-base: 1.095rem;
+$font-size-para: 1.6rem;
+$font-size-middle: 1.4rem;
+
+//Screen sizes//
+$screen_small: "576px";
+$screen_medium: "768px";
+$screen_large: "992px";
+$screen_xlarge: "1200px";
+
+$mobile: "only screen and (max-width: #{$screen_small - 1})";
+$mobile_landscape: "only screen and (min-width: #{$screen_small}) and (orientation : landscape)";
+
+$tablet: "only screen and (min-width: #{$screen_medium})";
+$tablet_portrait: "only screen and (min-width: #{$screen_medium}) and (orientation : portrait)";
+$tablet_landscape: "only screen and (min-width: #{$screen_medium}) and (orientation : landscape)";
+$tablet_max: "only screen and (max-width: #{$screen_large - 1})";
+$normal: "only screen and (min-width: #{$screen_large})";
+$desktop: "only screen and (min-width: #{$screen_xlarge})";

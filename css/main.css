@@ -1,0 +1,160 @@
+header {
+  margin-bottom: 10px; }
+
+ul li {
+  font-size: 1.2rem;
+  list-style: none; }
+  ul li a {
+    float: left;
+    padding: 20px 25px;
+    text-decoration: none;
+    color: #233c5f;
+    font-family: "Open Sans Condensed", sans-serif; }
+
+.logo {
+  height: 70px;
+  margin-top: 10px;
+  float: left; }
+
+* {
+  margin: 0px; }
+
+.carousel-inner {
+  width: 100%;
+  height: 100%; }
+
+.contactForm {
+  align-items: center;
+  width: 90%;
+  height: 100px;
+  margin: 20px 30px;
+  border: 10px; }
+
+.creativ__section {
+  position: absolute;
+  margin-left: 500px;
+  margin-top: 50px;
+  color: #233c5f; }
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: #ddc458; }
+
+.h__divider {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  border-top: 1px solid #ddc458; }
+
+.h__thick {
+  position: relative;
+  display: block;
+  margin: 80px auto;
+  width: 6%;
+  border-top: 3px solid #ddc458; }
+
+.llave__imag {
+  position: relative;
+  margin: 80px 0px 80px 0px; }
+  .llave__imag .llave__imag--small {
+    float: left;
+    position: relative;
+    width: auto; }
+
+li {
+  font-size: 1.2rem;
+  color: #233c5f;
+  list-style: none; }
+  li a:hover {
+    color: #a40775;
+    text-decoration: none; }
+
+.text__styles {
+  text-align: center; }
+  .text__styles p {
+    color: #233c5f;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 1.4rem;
+    margin: 20px 200px 20px 200px;
+    font-style: italic; }
+  .text__styles h1 {
+    color: #233c5f;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 1.4rem;
+    margin: 50px auto 50px 200px; }
+  .text__styles h2 {
+    color: #0D1D33;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.6rem;
+    margin: 10px 0px 20px 0px; }
+  .text__styles h3 {
+    color: #233c5f;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 1.095rem;
+    margin: 10px 10px; }
+  .text__styles h4 {
+    color: #233c5f;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 1.095rem; }
+  .text__styles.text__styles--title {
+    background-color: #f1e3b0;
+    color: #233c5f;
+    padding-top: 1px; }
+  .text__styles.text__styles--titlenon {
+    color: #233c5f;
+    padding-top: 5px; }
+
+.style__boxes {
+  background-image: url(../imagenes/imaginicio2.png);
+  width: 450px;
+  height: 400px;
+  margin: 50px 30px;
+  margin-left: auto; }
+  .style__boxes:hover {
+    color: #a40775;
+    transform: scale(1.1); }
+
+.creativ__section {
+  margin-top: 10px;
+  color: #233c5f; }
+
+.registros-image {
+  background-image: url("../imagenes/registros.jpg");
+  width: 600px;
+  height: 250px;
+  margin-left: 30px;
+  margin-bottom: 20px; }
+
+.aqua-image {
+  background-image: url("../imagenes/aqua.jpg");
+  width: 600px;
+  height: 250px;
+  margin-left: 30px;
+  margin-bottom: 20px; }
+
+.numerolog-image {
+  background-image: url("../imagenes/numerolog.jpg");
+  width: 600px;
+  height: 250px;
+  margin-left: 30px;
+  margin-bottom: 20px; }
+
+.tarot-image {
+  background-image: url("../imagenes/tarot.jpg");
+  width: 600px;
+  height: 250px;
+  margin-left: 30px;
+  margin-bottom: 20px; }
+
+.reverdec__imag {
+  background-image: url("../imagenes/numerolog.jpg");
+  width: 300px;
+  height: 300px;
+  margin: 30px 80px 30px 5px; }
+
+.style__rever {
+  color: #233c5f;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 1.4rem;
+  margin: 50px auto; }

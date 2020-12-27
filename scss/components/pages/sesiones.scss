@@ -2,15 +2,3 @@
     margin-top: 10px;
     color:$color-indigo;
 }
-
-$sesiones: 'registros', 'aqua', 'numerolog', 'tarot';
-
-@each $sesion in $sesiones {
-    .#{$sesion}-image{
-    background-image: url('../imagenes/#{$sesion}.jpg');
-    width: 600px;
-    height: 250px;
-    margin-left: 30px;
-    margin-bottom: 20px;
-    }
-}

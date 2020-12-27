@@ -17,7 +17,8 @@ ul li {
   float: left; }
 
 * {
-  margin: 0px; }
+  margin: 0px;
+  padding: 0px; }
 
 .carousel-inner {
   width: 100%;
@@ -96,22 +97,67 @@ li {
   .text__styles h4 {
     color: #233c5f;
     font-family: "Open Sans Condensed", sans-serif;
-    font-size: 1.095rem; }
+    font-size: 1.095rem;
+    margin-top: 50px; }
   .text__styles.text__styles--title {
-    background-color: #f1e3b0;
+    background-color: #f3e7bd;
     color: #233c5f;
     padding-top: 1px; }
   .text__styles.text__styles--titlenon {
     color: #233c5f;
     padding-top: 5px; }
 
-.style__boxes {
-  background-image: url(../imagenes/imaginicio2.png);
-  width: 450px;
+.registros-image {
+  background-image: url("../imagenes/registros.jpg");
+  width: 500px;
   height: 400px;
-  margin: 50px 30px;
-  margin-left: auto; }
-  .style__boxes:hover {
+  margin: 50px 30px; }
+  .registros-image:hover {
+    color: #a40775;
+    transform: scale(1.1); }
+
+.aqua-image {
+  background-image: url("../imagenes/aqua.jpg");
+  width: 500px;
+  height: 400px;
+  margin: 50px 30px; }
+  .aqua-image:hover {
+    color: #a40775;
+    transform: scale(1.1); }
+
+.numerologia-image {
+  background-image: url("../imagenes/numerologia.jpg");
+  width: 500px;
+  height: 400px;
+  margin: 50px 30px; }
+  .numerologia-image:hover {
+    color: #a40775;
+    transform: scale(1.1); }
+
+.tarot-image {
+  background-image: url("../imagenes/tarot.jpg");
+  width: 500px;
+  height: 400px;
+  margin: 50px 30px; }
+  .tarot-image:hover {
+    color: #a40775;
+    transform: scale(1.1); }
+
+.limpiezaadn-image {
+  background-image: url("../imagenes/limpiezaadn.jpg");
+  width: 500px;
+  height: 400px;
+  margin: 50px 30px; }
+  .limpiezaadn-image:hover {
+    color: #a40775;
+    transform: scale(1.1); }
+
+.pendulohebr-image {
+  background-image: url("../imagenes/pendulohebr.jpg");
+  width: 500px;
+  height: 400px;
+  margin: 50px 30px; }
+  .pendulohebr-image:hover {
     color: #a40775;
     transform: scale(1.1); }
 
@@ -119,38 +165,9 @@ li {
   margin-top: 10px;
   color: #233c5f; }
 
-.registros-image {
-  background-image: url("../imagenes/registros.jpg");
-  width: 600px;
-  height: 250px;
-  margin-left: 30px;
-  margin-bottom: 20px; }
-
-.aqua-image {
-  background-image: url("../imagenes/aqua.jpg");
-  width: 600px;
-  height: 250px;
-  margin-left: 30px;
-  margin-bottom: 20px; }
-
-.numerolog-image {
-  background-image: url("../imagenes/numerolog.jpg");
-  width: 600px;
-  height: 250px;
-  margin-left: 30px;
-  margin-bottom: 20px; }
-
-.tarot-image {
-  background-image: url("../imagenes/tarot.jpg");
-  width: 600px;
-  height: 250px;
-  margin-left: 30px;
-  margin-bottom: 20px; }
-
 .reverdec__imag {
-  background-image: url("../imagenes/numerolog.jpg");
-  width: 300px;
-  height: 300px;
+  background-image: url("../imagenes/dan.jpg");
+  height: 550px;
   margin: 30px 80px 30px 5px; }
 
 .style__rever {
@@ -158,3 +175,9 @@ li {
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 1.4rem;
   margin: 50px auto; }
+
+.inicio__imag {
+  background-image: url("../imagenes/ruedainicio.jpg");
+  width: auto;
+  height: 550px;
+  margin: 30px 80px 30px 5px; }

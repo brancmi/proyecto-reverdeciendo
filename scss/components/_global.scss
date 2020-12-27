@@ -1,6 +1,8 @@
 *{
-    margin: 0px;
+	margin:0px;
+	padding: 0px;
 }
+
 .carousel-inner{
     width: 100%;
     height: 100%;
@@ -97,6 +99,7 @@ li {
         color: $color-indigo;
         font-family: $main-font;
         font-size: $font-size-base;
+        margin-top: 50px;
     }
 
     &.text__styles--title {
@@ -111,14 +114,17 @@ li {
     }
 }
 
-.style__boxes{
-    background-image: url(../imagenes/imaginicio2.png);
-    width: 450px;
+$sesiones: 'registros', 'aqua', 'numerologia', 'tarot', 'limpiezaadn', 'pendulohebr';
+
+@each $sesion in $sesiones {
+    .#{$sesion}-image{
+    background-image: url('../imagenes/#{$sesion}.jpg');
+    width: 500px;
     height: 400px;
     margin: 50px 30px;
-    margin-left: auto;
 
     &:hover{
-    color: $color-grape;
-    transform: scale(1.1)
+        color: $color-grape;
+        transform: scale(1.1)
+    }
 }}

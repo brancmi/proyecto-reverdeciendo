@@ -81,7 +81,7 @@ li {
         color: $color-indigo;
         font-family: $main-font;
         font-size: $font-size-middle;
-        margin: 50px auto 50px 200px;
+        margin: 100px 100px;
     }
     h2{
         color: $color-blue-nigth;
@@ -121,7 +121,7 @@ $sesiones: 'registros', 'aqua', 'numerologia', 'tarot', 'limpiezaadn', 'penduloh
     background-image: url('../imagenes/#{$sesion}.jpg');
     width: 500px;
     height: 400px;
-    margin: 50px 30px;
+    margin: 50px 40px;
 
     &:hover{
         color: $color-grape;

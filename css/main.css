@@ -57,10 +57,10 @@ footer {
 
 .footer-inline {
   display: inline-block;
-  padding: 80px; }
+  padding: 60px; }
 
 .footer-title {
-  margin-bottom: 10px;
+  padding: 20px;
   letter-spacing: 1px;
   text-align: center; }
 
@@ -108,7 +108,7 @@ li {
   font-size: 1.5rem;
   color: #233c5f;
   list-style: none;
-  margin: 10px;
+  padding-right: 10px;
   display: inline-block;
   text-align: center;
   color: #0D1D33; }
@@ -118,13 +118,12 @@ li {
   .text__styles p {
     color: #233c5f;
     font-family: "Open Sans Condensed", sans-serif;
-    font-size: 1.4rem;
-    margin: 20px 200px 20px 200px;
+    font-size: 1.3rem;
     font-style: italic; }
   .text__styles h1 {
     color: #233c5f;
     font-family: "Open Sans Condensed", sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     margin: 100px 100px; }
   .text__styles h2 {
     color: #0D1D33;
@@ -139,7 +138,7 @@ li {
   .text__styles h4 {
     color: #233c5f;
     font-family: "Open Sans Condensed", sans-serif;
-    font-size: 1.095rem;
+    font-size: 1.3rem;
     margin-top: 50px;
     margin-bottom: 50px; }
   .text__styles.text__styles--title {
@@ -177,15 +176,6 @@ li {
     color: #a40775;
     transform: scale(1.1); }
 
-.tarot-image {
-  background-image: url("../imagenes/tarot.jpg");
-  width: 500px;
-  height: 400px;
-  margin: 50px 40px; }
-  .tarot-image:hover {
-    color: #a40775;
-    transform: scale(1.1); }
-
 .limpiezaadn-image {
   background-image: url("../imagenes/limpiezaadn.jpg");
   width: 500px;
@@ -195,14 +185,27 @@ li {
     color: #a40775;
     transform: scale(1.1); }
 
-.pendulohebr-image {
-  background-image: url("../imagenes/pendulohebr.jpg");
+.reiki-image {
+  background-image: url("../imagenes/reiki.jpg");
   width: 500px;
   height: 400px;
   margin: 50px 40px; }
-  .pendulohebr-image:hover {
+  .reiki-image:hover {
     color: #a40775;
     transform: scale(1.1); }
+
+.arteterapia-image {
+  background-image: url("../imagenes/arteterapia.jpg");
+  width: 500px;
+  height: 400px;
+  margin: 50px 40px; }
+  .arteterapia-image:hover {
+    color: #a40775;
+    transform: scale(1.1); }
+
+#font-extra {
+  font-size: 1.6rem;
+  font-family: "Open Sans", sans-serif; }
 
 .creativ__section {
   margin-top: 10px;
@@ -216,7 +219,7 @@ li {
 .style__rever {
   color: #233c5f;
   font-family: "Open Sans Condensed", sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   margin: 50px auto; }
 
 .inicio__imag {

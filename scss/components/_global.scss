@@ -45,11 +45,11 @@ footer{
 
 .footer-inline{
     display: inline-block;
-    padding: 80px;
+    padding: 60px;
 }
 
 .footer-title{
-    margin-bottom: 10px;
+    padding: 20px;
     letter-spacing: 1px;
     text-align: center;
 }
@@ -110,7 +110,7 @@ li {
     font-size: 1.5rem;
     color: $color-indigo;
     list-style: none;
-    margin: 10px;
+    padding-right: 10px;
     display: inline-block;
     text-align: center;
     color: $color-blue-nigth;
@@ -123,7 +123,6 @@ li {
         color: $color-indigo;
         font-family: $main-font;
         font-size: $font-size-middle;
-        margin: 20px 200px 20px 200px;
         font-style: italic;
     }
     h1{
@@ -147,7 +146,7 @@ li {
     h4{
         color: $color-indigo;
         font-family: $main-font;
-        font-size: $font-size-base;
+        font-size: $font-size-middle;
         margin-top: 50px;
         margin-bottom: 50px;
     }
@@ -164,7 +163,7 @@ li {
     }
 }
 
-$sesiones: 'registros', 'aqua', 'numerologia', 'tarot', 'limpiezaadn', 'pendulohebr';
+$sesiones: 'registros', 'aqua', 'numerologia', 'limpiezaadn', 'reiki', 'arteterapia';
 
 @each $sesion in $sesiones {
     .#{$sesion}-image{
@@ -178,3 +177,8 @@ $sesiones: 'registros', 'aqua', 'numerologia', 'tarot', 'limpiezaadn', 'penduloh
         transform: scale(1.1)
     }
 }}
+
+#font-extra{
+    font-size: $font-size-para;
+    font-family: $secondary-font;
+}

@@ -3,6 +3,11 @@
 	padding: 0px;
 }
 
+a:hover{
+    color: $color-grape;
+    text-decoration: none;
+}
+
 .btn {
     position: absolute;
     top: 50%;
@@ -29,11 +34,27 @@
     background-color: $color-yellow;
 }
 
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    min-width: $screen_small;
+}
+
 .creativ__section{
     position: absolute;
     margin-left: 500px;
     margin-top: 50px;
     color:$color-indigo;
+}
+
+.fixed-top{
+    position:fixed;
+    top: 0;
+    right: 0;
+    left:0;
 }
 
 footer{
@@ -68,6 +89,14 @@ footer{
     }
 }
 
+#header{
+    height: 90px;
+    padding: 2px 0;
+    max-width: $screen_large;
+    background: #fff;
+    transition: all 0.5s
+}
+
 .h__divider{
     margin-top:10px;
     margin-bottom:10px;
@@ -81,6 +110,11 @@ footer{
     margin: 80px auto;
     width: 6%;
     border-top: 3px solid $color-yellow;
+}
+
+.img-responsive{
+    width: 100%;
+    height: auto;
 }
 
 .llave__imag{
@@ -99,11 +133,11 @@ li {
     font-size: 1.2rem;
     color: $color-indigo;
     list-style: none;
-    
-    a:hover{
-        color: $color-grape;
-        text-decoration: none;
-    }
+    padding-right: 15px;
+}
+
+.li-nav{
+    padding-top: 8px;
 }
 
 .link-social{
@@ -114,6 +148,26 @@ li {
     display: inline-block;
     text-align: center;
     color: $color-blue-nigth;
+}
+
+.logo{
+    padding-left: 40px;
+}
+
+.navbar__nav{
+    position: fixed;
+    right: 90px;
+    top: 25px;
+    z-index: 9998;
+    border: 0;
+    background: none;
+    font-size: 24px;
+    transition: all 0.4s;
+    outline: none !important;
+    line-height: 1;
+    cursor: pointer;
+    text-align: right;
+    border-radius: 5px;
 }
 
 .text__styles{

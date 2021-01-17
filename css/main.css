@@ -24,6 +24,21 @@ a:hover {
   color: #a40775;
   text-decoration: none; }
 
+#back-to-top {
+  position: fixed;
+  background: #233c5f;
+  color: #fff;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 1;
+  font-size: 12px;
+  border-radius: 50%;
+  right: 15px;
+  bottom: 10px;
+  z-index: 11;
+  display: inline; }
+
 .btn {
   position: absolute;
   top: 50%;
@@ -49,11 +64,15 @@ a:hover {
 
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
   margin-right: auto;
   margin-left: auto;
   min-width: "576px"; }
+
+.copyright {
+  text-align: center;
+  padding-top: 30px; }
 
 .creativ__section {
   position: absolute;
@@ -67,20 +86,22 @@ a:hover {
   right: 0;
   left: 0; }
 
-footer {
+#font-extra {
+  font-size: 1.6rem;
+  font-family: "Open Sans", sans-serif;
+  color: white; }
+
+#footer {
   width: 100%;
-  height: 100px;
-  align-content: center;
+  height: auto;
+  margin-top: 15px;
+  padding: 0px 0 30px 0;
+  color: #233c5f;
   background-color: #ddc458; }
 
-.footer-inline {
-  display: inline-block;
-  padding: 60px; }
-
-.footer-title {
-  padding: 20px;
-  letter-spacing: 1px;
-  text-align: center; }
+.footer-top {
+  background: #ddc458;
+  padding: 60px 0 30px 0; }
 
 .form__inline {
   height: 50px;
@@ -119,7 +140,9 @@ footer {
 
 .llave__imag {
   position: relative;
-  margin: 80px 0px 80px 0px; }
+  margin: 80px 0px 80px 0px;
+  height: 80px;
+  transition: 2s ease-in-out; }
   .llave__imag .llave__imag--small {
     float: left;
     position: relative;
@@ -129,22 +152,27 @@ li {
   font-size: 1.2rem;
   color: #233c5f;
   list-style: none;
-  padding-right: 15px; }
+  padding-right: 5px; }
+  li:hover {
+    color: #a40775; }
 
 .li-nav {
-  padding-top: 8px; }
+  padding-top: 8px;
+  padding-right: 15px; }
+  .li-nav:hover {
+    color: #a40775; }
 
 .link-social {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: #233c5f;
   list-style: none;
   padding-right: 10px;
+  padding-top: 4px;
   display: inline-block;
-  text-align: center;
-  color: #0D1D33; }
+  text-align: center; }
 
 .logo {
-  padding-left: 40px; }
+  padding-left: 8px; }
 
 .navbar__nav {
   position: fixed;
@@ -161,6 +189,14 @@ li {
   text-align: right;
   border-radius: 5px; }
 
+.responsive-encuentros {
+  width: 100%;
+  height: 450px; }
+
+.responsive-sesiones {
+  width: 100%;
+  height: 200px; }
+
 .text__styles {
   text-align: center; }
   .text__styles p {
@@ -169,10 +205,10 @@ li {
     font-size: 1.3rem;
     font-style: italic; }
   .text__styles h1 {
-    color: #233c5f;
+    color: #0D1D33;
     font-family: "Open Sans Condensed", sans-serif;
     font-size: 1.3rem;
-    margin: 100px 100px; }
+    margin: 90px 100px; }
   .text__styles h2 {
     color: #0D1D33;
     font-family: "Open Sans", sans-serif;
@@ -180,9 +216,9 @@ li {
     margin: 10px 0px 20px 0px; }
   .text__styles h3 {
     color: #233c5f;
-    font-family: "Open Sans Condensed", sans-serif;
-    font-size: 1.095rem;
-    margin: 10px 10px; }
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    margin: 10px; }
   .text__styles h4 {
     color: #233c5f;
     font-family: "Open Sans Condensed", sans-serif;
@@ -251,30 +287,11 @@ li {
     color: #a40775;
     transform: scale(1.1); }
 
-#font-extra {
-  font-size: 1.6rem;
-  font-family: "Open Sans", sans-serif; }
-
 .creativ__section {
   margin-top: 10px;
-  color: #233c5f; }
-
-.reverdec__imag {
-  background-image: url("../imagenes/dan.jpg");
-  height: 550px;
-  margin: 30px 80px 30px 5px; }
-
-.style__rever {
   color: #233c5f;
-  font-family: "Open Sans Condensed", sans-serif;
-  font-size: 1.3rem;
-  margin: 50px auto; }
-
-.inicio__imag {
-  background-image: url("../imagenes/ruedainicio.jpg");
-  width: auto;
-  height: 550px;
-  margin: 30px 80px 30px 5px; }
+  width: 100%;
+  height: auto; }
 
 input[type=text], select, textarea {
   width: 100%;
@@ -332,3 +349,18 @@ input[type=submit] {
 .contact__map {
   margin-top: 50px;
   margin-left: 60px; }
+
+.experimentales-image {
+  background-image: url("../imagenes/experimentales.jpg");
+  width: 100%;
+  height: auto; }
+
+.charlas-image {
+  background-image: url("../imagenes/charlas.jpg");
+  width: 100%;
+  height: auto; }
+
+.iniciacion-image {
+  background-image: url("../imagenes/iniciacion.jpg");
+  width: 100%;
+  height: auto; }

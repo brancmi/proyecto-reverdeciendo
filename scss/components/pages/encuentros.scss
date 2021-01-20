@@ -1,8 +1,0 @@
-$encuentros: 'experimentales', 'charlas', 'iniciacion';
-
-@each $encuentro in $encuentros {
-    .#{$encuentro}-image{
-    background-image: url('../imagenes/#{$encuentro}.jpg');
-    width: 100%;
-    height: auto;
-}}
